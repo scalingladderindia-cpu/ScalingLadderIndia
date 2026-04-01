@@ -1015,7 +1015,7 @@ MOBILE NAVBAR
   color: white;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 650px) {
      .nav-logo {
     gap: 6px;
   }
