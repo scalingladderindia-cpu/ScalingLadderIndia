@@ -977,7 +977,7 @@
     .services-grid { grid-template-columns: repeat(2, 1fr); }
   }
 /* Oldmax-width: 768px */
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     /* .nav-links { display: none; }
     .services-grid, .metrics-grid, .industries-grid,
     .testi-grid, .pricing-grid, .blog-grid { grid-template-columns: 1fr; }
@@ -989,7 +989,7 @@
     .pricing-grid {
     grid-template-columns: 1fr;
   } */
-}
+} */
 
 /* =========================
 GLOBAL FIXES
@@ -1016,6 +1016,17 @@ MOBILE NAVBAR
 }
 
 @media (max-width: 768px) {
+     .nav-logo {
+    gap: 6px;
+  }
+
+  .nav-logo-icon img {
+    width: 50px !important;
+  }
+
+  .nav-logo-text {
+    font-size: 1.1rem;
+  }
   .menu-toggle {
     display: block;
   }
@@ -1090,12 +1101,35 @@ PROCESS
 WHY SECTION
 ========================= */
 @media (max-width: 768px) {
-  .why-grid {
+  /* .why-grid {
     grid-template-columns: 1fr;
   }
 
   .why-image-wrap {
     margin-top: 2rem;
+  } */
+     .why-features {
+    gap: 1rem;
+  }
+
+  .why-feat {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.2rem;
+  }
+
+  .wf-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  .wf-title {
+    font-size: 0.9rem;
+  }
+
+  .wf-desc {
+    font-size: 0.8rem;
   }
 }
 
